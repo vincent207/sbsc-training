@@ -1,0 +1,12 @@
+server:
+  port: 8090
+
+spring:
+  mvc:
+    static-path-pattern: "/doc/**"
+
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://103.139.192.249:9000
